@@ -26,8 +26,8 @@ body
 
 section 
 {
-    width: 20%;
-    height: 470px;
+    width: 300px;
+    height: auto;
     border: 10px solid white;
     border-radius: 10px;
     background-color: white;
@@ -37,8 +37,9 @@ section
 section > img 
 {
     width: 98%;
-    height: 260px;
-    border: 2px solid white;
+    height: auto;
+    margin: auto;
+    border: 2px solid hsl(0, 0%, 100%);
     border-radius: 10px;
 }
 
@@ -57,16 +58,16 @@ p
     text-align: center;
 
 }
-
+/*
 @media only screen and (min-width:600px) {
     section {
-        width: 20%;
+    width: 20%;
     height: 470px;
     }
 }
 @media only screen and (max-width:600px) {
    section{
-    width: 80%;
+    min-width: 80%;
     height: 50%;
    }
-}
+}*/
